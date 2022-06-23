@@ -1,0 +1,75 @@
+*::before::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-image: url("../img/header_bg.jpg");
+
+}
+
+#section1{
+    background-image: url("../img/banner.jpg");
+
+}
+#section3{
+    background-image: url("../img/about_bg.jpg");
+
+}
+#section5{
+    background-image: url("../img/contact.jpg");
+}
+.bgimg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custombtn{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    height: 6vh;
+    width: 18vh;
+}
+.custombtn:hover{
+    background-color: black;
+    color: white;
+}
+.cutomcard{
+    transition: 1s;
+}
+.cutomcard:hover{
+    background-color: red;
+    border-radius: 5vh;
+color: white !important;
+}
+
+
+.py10{
+    padding: 10% 0;
+}
+
+.btn-dark{
+    width: 24vh;
+    height: 8vh;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileimg{
+    width: 50vh !important;
+    height: 50vh;
+}
+
+
+.fsBIG{
+    font-size: 20vh;
+}
+.fsSEMIBIG{
+    font-size: 8vh;
+}
